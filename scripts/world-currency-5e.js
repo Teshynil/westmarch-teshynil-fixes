@@ -45,6 +45,11 @@ function patchCurrencies() {
     game.i18n.translations.DND5E.CurrencyAbbrCP = currencySettings["cpAltAbrv"];
 
     CONFIG.DND5E.currencies = {
+        dt: {
+            label: "Downtime",
+            abbreviation: "dt",
+            conversion: 0
+        },
         pp: {
             label: currencySettings["ppAlt"],
             abbreviation: currencySettings["ppAltAbrv"],

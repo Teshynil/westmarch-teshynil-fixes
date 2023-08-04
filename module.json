@@ -2,12 +2,12 @@
     "name": "world-currency-5e",
     "title": "World Currency 5e",
     "description": "Use currencies unique to your world in D&D 5E.",
-    "authors": [{ "name": "cstby" }],
-    "version": "2.0.2",
+    "authors": [{ "name": "teshynil" }],
+    "version": "2.0.3",
     "library": "false",
     "compatibility": {
         "minimum": "10",
-        "verified": "10.288"
+        "verified": "11"
     },
     "conflicts": [],
     "esmodules": [
@@ -28,15 +28,14 @@
                 "id": "dnd5e",
                 "type": "system",
                 "compatibility": {
-                    "minimum": "2.0.3",
-                    "verified": "2.0.3"
+                    "minimum": "2.0.3"
                 }
             }
         ]
     },
-    "url": "https://github.com/cstby/foundryvtt-world-currency-5e",
-    "manifest": "https://raw.githubusercontent.com/cstby/foundryvtt-world-currency-5e/master/module.json",
-    "download": "https://github.com/cstby/foundryvtt-world-currency-5e/archive/master.zip",
+    "url": "https://github.com/teshynil/westmarch-world-currency-5e",
+    "manifest": "https://raw.githubusercontent.com/teshynil/westmarch-world-currency-5e/master/module.json",
+    "download": "https://github.com/teshynil/westmarch-world-currency-5e/archive/master.zip",
     "media": [
         {
             "type": "icon",
