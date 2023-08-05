@@ -38,6 +38,17 @@ Hooks.on('renderActorSheet5eCharacter', (sheet, html) => {
     }
     // This is only necessary for tidy5e.
     compatibility.alterCharacterCurrency(html);
+
+    let element=`
+<li class="currency-item dt" title="Downtime">
+    <input type="number" step="any" name="system.currency.dt" id="${sheet.appId}-system.currency.dt" value="${sheet.actor.system.currency.dt??0}">
+    <label for="${sheet.appId}-system.currency.dt" class="denomination dt" data-denom="dt">DT</label>
+</li>`
+    let extra=$(element);
+
+    let header=html.find('.inventory-currency li.currency-header')
+    header.after(extra);
+
     console.log("world-currency-5e | Altered character sheet");
 });
 
