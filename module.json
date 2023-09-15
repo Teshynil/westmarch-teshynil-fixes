@@ -1,12 +1,12 @@
 {
-    "name": "world-currency-5e",
-    "title": "World Currency 5e",
-    "description": "Use currencies unique to your world in D&D 5E.",
+    "name": "westmarch-teshynil-fixes",
+    "title": "WestMarch Teshynil Fixes",
+    "description": "A series of fixes for a better westmarch experience in DnD 5e.",
     "authors": [{ "name": "teshynil" }],
-    "version": "2.0.3",
+    "version": "1.0.0",
     "library": "false",
     "compatibility": {
-        "minimum": "10",
+        "minimum": "11",
         "verified": "11"
     },
     "conflicts": [],
@@ -16,11 +16,6 @@
     "scripts": [],
     "styles": [],
     "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "languages/en.json"
-        }
     ],
     "relationships": {
         "systems": [
@@ -28,14 +23,14 @@
                 "id": "dnd5e",
                 "type": "system",
                 "compatibility": {
-                    "minimum": "2.0.3"
+                    "minimum": "2.2.2"
                 }
             }
         ]
     },
-    "url": "https://github.com/teshynil/westmarch-world-currency-5e",
-    "manifest": "https://raw.githubusercontent.com/teshynil/westmarch-world-currency-5e/master/module.json",
-    "download": "https://github.com/teshynil/westmarch-world-currency-5e/archive/master.zip",
+    "url": "https://github.com/teshynil/westmarch-teshynil-fixes",
+    "manifest": "https://raw.githubusercontent.com/teshynil/westmarch-teshynil-fixes/master/module.json",
+    "download": "https://github.com/teshynil/westmarch-teshynil-fixes/archive/master.zip",
     "media": [
         {
             "type": "icon",
