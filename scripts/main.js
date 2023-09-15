@@ -35,7 +35,7 @@ Hooks.on('renderActorSheetFlags', (sheet, html) => {
     let extra=$(element);
 
     let header=html.find('section .form-body');
-    header.after(extra);
+    header.append(extra);
 
     console.log("westmarch-teshynil-fixes | Altered character sheet flags");
 });
