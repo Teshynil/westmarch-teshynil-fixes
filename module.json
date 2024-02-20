@@ -3,7 +3,7 @@
     "title": "WestMarch Teshynil Fixes",
     "description": "A series of fixes for a better westmarch experience in DnD 5e.",
     "authors": [{ "name": "teshynil" }],
-    "version": "1.1.0",
+    "version": "1.2.0",
     "library": "false",
     "compatibility": {
         "minimum": "11",
